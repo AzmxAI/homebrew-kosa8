@@ -1,0 +1,30 @@
+{
+  "version": "0.1.0",
+  "description": "Run AI coding assistants in sealed machines you can save and copy",
+  "homepage": "https://kosa8.com",
+  "license": "Apache-2.0",
+  "notes": [
+    "Windows runs the command-line tool only.",
+    "The part that runs containers needs an Apple Silicon Mac.",
+    "Point kosa8 at one with KOSA8_HOST and KOSA8_TOKEN."
+  ],
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/AzmxAI/kosa8-releases/releases/download/v0.1.0/kosa8_0.1.0_windows_amd64.zip",
+      "hash": "58cac52aaecbe5f2e6380ad08e083139ced8e199891ebf31916c2c449d2df973"
+    },
+    "arm64": {
+      "url": "https://github.com/AzmxAI/kosa8-releases/releases/download/v0.1.0/kosa8_0.1.0_windows_arm64.zip",
+      "hash": "70d681fce85e0ccd9ce98ebc5d3ec40e6b5f8d20ba80d18849588a71f770138a"
+    }
+  },
+  "bin": "kosa8.exe",
+  "checkver": { "github": "https://github.com/AzmxAI/kosa8-releases" },
+  "autoupdate": {
+    "architecture": {
+      "64bit": { "url": "https://github.com/AzmxAI/kosa8-releases/releases/download/v$version/kosa8_$version_windows_amd64.zip" },
+      "arm64": { "url": "https://github.com/AzmxAI/kosa8-releases/releases/download/v$version/kosa8_$version_windows_arm64.zip" }
+    },
+    "hash": { "url": "https://github.com/AzmxAI/kosa8-releases/releases/download/v$version/checksums.txt" }
+  }
+}
