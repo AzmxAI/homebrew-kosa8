@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Run AI coding assistants in sealed machines you can save and copy",
   "homepage": "https://kosa8.com",
   "license": "Apache-2.0",
@@ -10,21 +10,29 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://github.com/AzmxAI/kosa8-releases/releases/download/v0.1.0/kosa8_0.1.0_windows_amd64.zip",
-      "hash": "58cac52aaecbe5f2e6380ad08e083139ced8e199891ebf31916c2c449d2df973"
+      "url": "https://github.com/AzmxAI/kosa8-releases/releases/download/v0.1.1/kosa8_0.1.1_windows_amd64.zip",
+      "hash": "35bb0074d8dce0b3b48a888bff578f842ce223d4b3a3d11dd0d6c7acafd503e0"
     },
     "arm64": {
-      "url": "https://github.com/AzmxAI/kosa8-releases/releases/download/v0.1.0/kosa8_0.1.0_windows_arm64.zip",
-      "hash": "70d681fce85e0ccd9ce98ebc5d3ec40e6b5f8d20ba80d18849588a71f770138a"
+      "url": "https://github.com/AzmxAI/kosa8-releases/releases/download/v0.1.1/kosa8_0.1.1_windows_arm64.zip",
+      "hash": "dda14939555a84daa6065a9db7b03160f510d42de74dba7500cc0e4be53147d7"
     }
   },
   "bin": "kosa8.exe",
-  "checkver": { "github": "https://github.com/AzmxAI/kosa8-releases" },
+  "checkver": {
+    "github": "https://github.com/AzmxAI/kosa8-releases"
+  },
   "autoupdate": {
     "architecture": {
-      "64bit": { "url": "https://github.com/AzmxAI/kosa8-releases/releases/download/v$version/kosa8_$version_windows_amd64.zip" },
-      "arm64": { "url": "https://github.com/AzmxAI/kosa8-releases/releases/download/v$version/kosa8_$version_windows_arm64.zip" }
+      "64bit": {
+        "url": "https://github.com/AzmxAI/kosa8-releases/releases/download/v$version/kosa8_$version_windows_amd64.zip"
+      },
+      "arm64": {
+        "url": "https://github.com/AzmxAI/kosa8-releases/releases/download/v$version/kosa8_$version_windows_arm64.zip"
+      }
     },
-    "hash": { "url": "https://github.com/AzmxAI/kosa8-releases/releases/download/v$version/checksums.txt" }
+    "hash": {
+      "url": "https://github.com/AzmxAI/kosa8-releases/releases/download/v$version/checksums.txt"
+    }
   }
 }
