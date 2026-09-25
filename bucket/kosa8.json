@@ -1,5 +1,5 @@
 {
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "Run AI coding assistants in sealed machines you can save and copy",
   "homepage": "https://kosa8.com",
   "license": "Apache-2.0",
@@ -10,12 +10,12 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://github.com/AzmxAI/kosa8-releases/releases/download/v0.3.1/kosa8_0.3.1_windows_amd64.zip",
-      "hash": "274a95a8014a93e2a2fbd4dcfcea2d2285113d0d0fbb006410bad780c2565303"
+      "url": "https://github.com/AzmxAI/kosa8-releases/releases/download/v0.4.0/kosa8_0.4.0_windows_amd64.zip",
+      "hash": "abb11a7e0d72a5811227f9a17e0f5e7067c7a9d72d69d7090b23e1c071f72d77"
     },
     "arm64": {
-      "url": "https://github.com/AzmxAI/kosa8-releases/releases/download/v0.3.1/kosa8_0.3.1_windows_arm64.zip",
-      "hash": "541ef333414b97d55efcb6befe6fe26cda31514a4eb8f24a3a400f8b0118eb0e"
+      "url": "https://github.com/AzmxAI/kosa8-releases/releases/download/v0.4.0/kosa8_0.4.0_windows_arm64.zip",
+      "hash": "7af07cea4ddfe2edc1b8f6a53bd1e3cabff19ecb54df4eaefc0401887e1700bd"
     }
   },
   "bin": "kosa8.exe",
