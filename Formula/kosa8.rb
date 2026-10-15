@@ -6,15 +6,15 @@ class Kosa8 < Formula
   desc "Run AI coding assistants in sealed machines you can save and copy"
   homepage "https://kosa8.com"
   license "Apache-2.0"
-  version "0.9.9"
+  version "0.9.10"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/AzmxAI/kosa8-releases/releases/download/v#{version}/kosa8_#{version}_darwin_arm64.zip"
-      sha256 "7f3823a18887edeecacb078e903370bb2a372dc73e2ee7d356a3fc48d453a51b"
+      sha256 "df839429d7684e73efba467304dab910ffe959775303dc3f53d6e4954f0e112c"
     else
       url "https://github.com/AzmxAI/kosa8-releases/releases/download/v#{version}/kosa8_#{version}_darwin_amd64.zip"
-      sha256 "80d617ae5c1026defce57dacd5b62fc26e24a272b07ee822cf0bf94ff289244e"
+      sha256 "de615ddd6ba3c347c5ab0a13f65951d16dff1b39b61fe55e2b1fa4a9711c88ec"
     end
   end
 
