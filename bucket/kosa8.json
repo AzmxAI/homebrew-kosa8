@@ -11,11 +11,11 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/AzmxAI/kosa8-releases/releases/download/v0.16.0/kosa8_0.16.0_windows_amd64.zip",
-      "hash": "e1fd75d59d59f7ffaf425690230558f160053c4a3282bf473e27cf98bd0bc7c3"
+      "hash": "463bb544ebe2668041827176ed5a177573a2d91f2e0a495d911996c95c967f55"
     },
     "arm64": {
       "url": "https://github.com/AzmxAI/kosa8-releases/releases/download/v0.16.0/kosa8_0.16.0_windows_arm64.zip",
-      "hash": "9cf0a41e247b30ea57a35dfd361ae06eee655266b98c1f8ee664c5b6be909910"
+      "hash": "0da6e1ef29f34a614306bcf7e3f555fd0ec0cf56d7f9bfdaf1fa582eddacf073"
     }
   },
   "bin": "kosa8.exe",

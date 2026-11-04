@@ -11,10 +11,10 @@ class Kosa8 < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/AzmxAI/kosa8-releases/releases/download/v#{version}/kosa8_#{version}_darwin_arm64.zip"
-      sha256 "87a0df5317711d76918bea9bd5030fdf75edea40725a1e29b358c7f2e4c3241a"
+      sha256 "d76b5e4619d89a7889b13bdcd387cb76f8ff983afbcd29deaf5f99a8e188cc08"
     else
       url "https://github.com/AzmxAI/kosa8-releases/releases/download/v#{version}/kosa8_#{version}_darwin_amd64.zip"
-      sha256 "e536fe9f4a6508b9be92f17778ab1c283f275a33fbf9e96e9b17885111fc9d1b"
+      sha256 "5dbf848b8ceecac06088d00418111e403382010ed393568cb1b4896146ee9087"
     end
   end
 
