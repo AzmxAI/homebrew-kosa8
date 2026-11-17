@@ -4,7 +4,7 @@
   "homepage": "https://kosa8.com",
   "license": "Apache-2.0",
   "notes": [
-    "kosa8d.exe runs sandboxes as gVisor containers on Docker (preview); it needs Docker Desktop.",
+    "kosa8d.exe runs sandboxes as gVisor containers on Docker (preview); it needs Docker. Or run the full engine in WSL2: kosa8 wsl setup.",
     "Or point kosa8 at a Mac or Linux engine with KOSA8_HOST and KOSA8_TOKEN, or use kosa8 Cloud: kosa8 login."
   ],
   "architecture": {
