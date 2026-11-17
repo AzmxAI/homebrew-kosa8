@@ -4,9 +4,8 @@
   "homepage": "https://kosa8.com",
   "license": "Apache-2.0",
   "notes": [
-    "Windows runs the command-line tool only.",
-    "The part that runs containers needs an Apple Silicon Mac.",
-    "Point kosa8 at one with KOSA8_HOST and KOSA8_TOKEN."
+    "kosa8d.exe runs sandboxes as gVisor containers on Docker (preview); it needs Docker Desktop.",
+    "Or point kosa8 at a Mac or Linux engine with KOSA8_HOST and KOSA8_TOKEN, or use kosa8 Cloud: kosa8 login."
   ],
   "architecture": {
     "64bit": {
@@ -18,7 +17,10 @@
       "hash": "30c32ed3f3e61f5b11172c89631e57d08177ea76917b5b310f78c19d5d1db752"
     }
   },
-  "bin": "kosa8.exe",
+  "bin": [
+    "kosa8.exe",
+    "kosa8d.exe"
+  ],
   "checkver": {
     "github": "https://github.com/AzmxAI/kosa8-releases"
   },
