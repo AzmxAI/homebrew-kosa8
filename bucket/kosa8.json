@@ -1,20 +1,23 @@
 {
-  "version": "0.20.0",
+  "version": "0.21.0",
   "description": "Run AI coding assistants in sealed machines you can save and copy",
   "homepage": "https://kosa8.com",
-  "license": "Apache-2.0",
+  "license": {
+    "identifier": "Proprietary",
+    "url": "https://kosa8.com/terms/"
+  },
   "notes": [
     "kosa8d.exe runs sandboxes as gVisor containers on Docker (preview); it needs Docker. Or run the full engine in WSL2: kosa8 wsl setup.",
     "Or point kosa8 at a Mac or Linux engine with KOSA8_HOST and KOSA8_TOKEN, or use kosa8 Cloud: kosa8 login."
   ],
   "architecture": {
     "64bit": {
-      "url": "https://github.com/AzmxAI/kosa8-releases/releases/download/v0.20.0/kosa8_0.20.0_windows_amd64.zip",
-      "hash": "72a1cc6f16b508567225d6c47e38fb937defcf5d5e70893a8b5597aeaf99abd7"
+      "url": "https://github.com/AzmxAI/kosa8-releases/releases/download/v0.21.0/kosa8_0.21.0_windows_amd64.zip",
+      "hash": "9061922973f9797ee2d09817d39baa302e44e9b7f23016a6481ff996b0c01f80"
     },
     "arm64": {
-      "url": "https://github.com/AzmxAI/kosa8-releases/releases/download/v0.20.0/kosa8_0.20.0_windows_arm64.zip",
-      "hash": "2609938f2aa0b35c9ab35118b4369bb5985f13a580dd7d68cdf49726c4d3dfdf"
+      "url": "https://github.com/AzmxAI/kosa8-releases/releases/download/v0.21.0/kosa8_0.21.0_windows_arm64.zip",
+      "hash": "646ea4d5013474fb1f75a297e2e109ae775a01d8de37f1bbb8542f8bd374d8c8"
     }
   },
   "bin": [
