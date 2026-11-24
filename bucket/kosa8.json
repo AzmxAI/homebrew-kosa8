@@ -1,6 +1,6 @@
 {
-  "version": "0.23.0",
-  "description": "Run AI coding assistants in sealed machines you can save and copy",
+  "version": "0.24.0",
+  "description": "Zero Trust cybersecurity infrastructure for AI agents",
   "homepage": "https://kosa8.com",
   "license": {
     "identifier": "Proprietary",
@@ -12,12 +12,12 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://github.com/AzmxAI/kosa8-releases/releases/download/v0.23.0/kosa8_0.23.0_windows_amd64.zip",
-      "hash": "70b9c7c8799619c2e2e89123ecc7f3192d1a49845ba993831c275db844497c39"
+      "url": "https://github.com/AzmxAI/kosa8-releases/releases/download/v0.24.0/kosa8_0.24.0_windows_amd64.zip",
+      "hash": "ee2a3adafc18ff43b11665147a8453825d5154a9ebe87ca8fcaacd57650b85bb"
     },
     "arm64": {
-      "url": "https://github.com/AzmxAI/kosa8-releases/releases/download/v0.23.0/kosa8_0.23.0_windows_arm64.zip",
-      "hash": "d7393bb296e71eaf402eb943031c8217eee35f4db0ee1dd2a1f78ff53c4114ee"
+      "url": "https://github.com/AzmxAI/kosa8-releases/releases/download/v0.24.0/kosa8_0.24.0_windows_arm64.zip",
+      "hash": "c795ffac7a2146ba748b3506e4e2ff8675423182cd1fce5337a266fa3b63cc50"
     }
   },
   "bin": [
