@@ -1,5 +1,5 @@
 {
-  "version": "0.25.0",
+  "version": "0.26.0",
   "description": "Zero Trust cybersecurity infrastructure for AI agents",
   "homepage": "https://kosa8.com",
   "license": {
@@ -12,12 +12,12 @@
   ],
   "architecture": {
     "64bit": {
-      "url": "https://github.com/AzmxAI/kosa8-releases/releases/download/v0.25.0/kosa8_0.25.0_windows_amd64.zip",
-      "hash": "8125b17c82d3e175cc3260cc4dabc1dfb014d95b0fa94a9bccfeacd769d919e6"
+      "url": "https://github.com/AzmxAI/kosa8-releases/releases/download/v0.26.0/kosa8_0.26.0_windows_amd64.zip",
+      "hash": "c8376a29a807b3f5528a525d6aed983c88925bc6a57e0966dec920b7badc5576"
     },
     "arm64": {
-      "url": "https://github.com/AzmxAI/kosa8-releases/releases/download/v0.25.0/kosa8_0.25.0_windows_arm64.zip",
-      "hash": "f0ed9b0ba78aa9e8083daf4b31c0b42442410661335cf1934edef34b32a0b788"
+      "url": "https://github.com/AzmxAI/kosa8-releases/releases/download/v0.26.0/kosa8_0.26.0_windows_arm64.zip",
+      "hash": "cde1bed03cf3677a6062049454fccf21a5adcc8ab21cf363ba3bd50341b6e886"
     }
   },
   "bin": [

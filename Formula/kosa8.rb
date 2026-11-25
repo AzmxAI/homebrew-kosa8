@@ -6,15 +6,15 @@ class Kosa8 < Formula
   desc "Zero Trust cybersecurity infrastructure for AI agents"
   homepage "https://kosa8.com"
   license :cannot_represent
-  version "0.25.0"
+  version "0.26.0"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/AzmxAI/kosa8-releases/releases/download/v#{version}/kosa8_#{version}_darwin_arm64.zip"
-      sha256 "51744d63dc346df3a43c315638b9e011ae9214c81f56fea7370721bdb9a9b49c"
+      sha256 "cbaecc8c207671958c3ab4809d622a08ebb4fae76a949c232a66577523fd3ebb"
     else
       url "https://github.com/AzmxAI/kosa8-releases/releases/download/v#{version}/kosa8_#{version}_darwin_amd64.zip"
-      sha256 "a95a568f3d4765e236e5f7d80a7dd3101f8d7b81492c2ccd13b8768d69b5e1b9"
+      sha256 "feed043551afcad236b0b119c1af54008633fb01dfa940d5b9e0a7cd55d8f10f"
     end
   end
 
